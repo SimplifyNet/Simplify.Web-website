@@ -1,5 +1,14 @@
 title: Simplify.Web
-description: A lightweight and fast server-side .NET web-framework based on MVC and OWIN for building HTTP based web-applications, RESTful APIs etc. 
-google_analytics:
-show_downloads: true
-theme: jekyll-theme-slate
+description: Simplify.Web is a lightweight and fast server-side .NET web-framework based on MVC and OWIN for building HTTP based web-applications, RESTful APIs etc.
+
+baseurl: ""
+url: "https://web.simplifynet.dev"
+repository: "SimplifyNet/Simplify.Web"
+
+simplify_web_repository_url: "https://github.com/SimplifyNet/Simplify.Web"
+templates_repository_url: "https://github.com/SimplifyNet/Simplify.Web.Templates"
+
+simplify_url: "https://simplifynet.dev"
+
+markdown: kramdown
+theme: jekyll-theme-midnight
