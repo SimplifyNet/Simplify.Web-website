@@ -9,22 +9,20 @@
 [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=SimplifyNet/Simplify.Web)](https://dependabot.com)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](http://makeapullrequest.com)
 
-Simplify.Web is an open-source, lightweight and fast server-side .NET web-framework based on MVC and OWIN patterns for building HTTP based web-applications, RESTful APIs etc.
-
-It can be used as:
+Framework can be used as:
 
 - An API backend framework
 - As a mix of API backend + some SPA front end like Angular
 - As an old way backend generated web-site
 
-It can be hosted:
+Can be hosted:
 
 - The same way as an ApsNetCore MVC application (On IIS, or as a console application)
 - Inside a windows service
 
 ## Main features
 
-- Comes as Microsoft.AspNetCore OWIN middleware
+- Comes as Microsoft.AspNetCore middleware
 - Can be used as an API backend only with front-end frameworks
 - Based on MVC and MVVM patterns
 - Lightweight & Fast
