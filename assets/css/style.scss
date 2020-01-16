@@ -29,7 +29,11 @@ section {
 }
 
 #header {
+  margin-top: 0;
+
   nav {
+    display: block;
+
     li {
       a {
         border-color: #dc5f33;
@@ -43,6 +47,10 @@ section {
 
     li.fork {
       margin-right: 6px;
+    }
+
+    li.downloads {
+      margin-left: 0px;
     }
   }
 }
