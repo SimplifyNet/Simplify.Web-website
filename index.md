@@ -180,7 +180,6 @@ public class LoggedUserPanelView : View
 Below is the list of sample applications showing different variations of Simplify.Web usage:
 
 - [Only as an API backend with Angular + Bootstrap UI SPA](https://github.com/SimplifyNet/Simplify.Web/tree/master/src/SampleApps/SampleApp.Angular)
-- [Simple Kestrel-based Application with backend page](https://github.com/SimplifyNet/Simplify.Web/tree/master/src/SampleApps/SampleApp.Kestrel)
 - [Kestrel-based Application with backend HTML generation, localization, authentication](https://github.com/SimplifyNet/Simplify.Web/tree/master/src/SampleApps/SampleApp.Classic)
 
 ![Simplify](https://raw.githubusercontent.com/SimplifyNet/Simplify.Web/master/images/screenshots/sample-app-classic.png)
@@ -205,9 +204,11 @@ There are many ways in which you can participate in the project. Like most open-
 Additional extensions to Simplify.Web live in their own repositories on GitHub. For example:
 
 - [Simplify.Web.Json](https://github.com/SimplifyNet/Simplify.Web.Json) - JSON serialization/deserialization
+- [Simplify.Web.Postman](https://github.com/SimplifyNet/Simplify.Web.Postman) - Postman collection and environment generation
+- [Simplify.Web.Swagger](https://github.com/SimplifyNet/Simplify.Web.Swagger) - Swagger generation for controllers
 - [Simplify.Web.Multipart](https://github.com/SimplifyNet/Simplify.Web.Multipart) - multipart form model binder
 - [Simplify.Web.MessageBox](https://github.com/SimplifyNet/Simplify.Web.MessageBox) - non-interactive server side message box
-- [Simplify.Web.Templates](https://github.com/SimplifyNet/Simplify.Web.Templates) - Visual studio project templates
+- [Simplify.Web.Templates](https://github.com/SimplifyNet/Simplify.Web.Templates) - .NET projects templates
 
 ## License
 
