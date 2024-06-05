@@ -4,7 +4,7 @@
 [![Build Package](https://github.com/SimplifyNet/Simplify.Web/actions/workflows/build.yml/badge.svg)](https://github.com/SimplifyNet/Simplify.Web/actions/workflows/build.yml)
 [![Libraries.io dependency status for latest release](https://img.shields.io/librariesio/release/nuget/Simplify.Web)](https://libraries.io/nuget/Simplify.Web)
 [![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/SimplifyNet/Simplify.Web)](https://www.codefactor.io/repository/github/simplifynet/simplify.web)
-![Platform](https://img.shields.io/badge/platform-.NET%206.0%20%7C%20.NET%20Standard%202.1%20%7C%20.NET%20Standard%202.0%20%7C%20.NET%20Framework%204.8-lightgrey)
+![Platform](https://img.shields.io/badge/platform-.NET%206.0%20%7C%20.NET%20Standard%202.1%20%7C%20.NET%20Standard%202.0-lightgrey)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](http://makeapullrequest.com)
 
 Framework can be used as:
