@@ -59,22 +59,22 @@ Then just run project via F5 (it will download all required nuget and npm packag
 
 ## [Detailed documentation](https://github.com/SimplifyNet/Simplify.Web/wiki)
 
-### API outgoing JSON controller example
+### API outgoing JSON controller v2 example
 
 ```csharp
 [Get("api/v1/weatherTypes")]
-public class SampleDataController : Controller
+public class SampleDataController : Controller2
 {
     private static readonly string[] Summaries =
     {
         "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
     };
 
-    public override ControllerResponse Invoke()
+    public ControllerResponse Invoke()
     {
         try
         {
-            return new Json(items);
+            return Json(items);
         }
         catch (Exception e)
         {
@@ -86,13 +86,13 @@ public class SampleDataController : Controller
 }
 ```
 
-### API ingoing JSON controller example
+### API ingoing JSON controller v2 example
 
 ```csharp
 [Post("api/v1/sendMessage")]
-public class SampleDataController : Controller<SampleModel>
+public class SampleDataController : Controller2<SampleModel>
 {
-    public override ControllerResponse Invoke()
+    public ControllerResponse Invoke()
     {
         try
         {
@@ -122,7 +122,7 @@ public class SampleModel
 
 ### Some simple HTML generation controllers example
 
-#### Static page controller
+#### Static page controller v1 example
 
 ```csharp
 // Controller will be executed only on HTTP GET request like http://mysite.com/about
@@ -132,12 +132,12 @@ public class AboutController : Controller
     public override ControllerResponse Invoke()
     {
         // About.tpl content will be inserted into {MainContent} in Master.tpl
-        return new StaticTpl("Static/About", StringTable.PageTitleAbout);
+        return StaticTpl("Static/About", StringTable.PageTitleAbout);
     }
 }
 ```
 
-#### Any page controller with high run priority example
+#### Any page controller v1 with high run priority example
 
 Runs on any request and adds login panel to a pages
 
