@@ -50,6 +50,7 @@ dotnet new -i Simplify.Web.Templates
 | API template                        | sweb.api                |
 | Minimal template                    | sweb.minimal            |
 | Windows service hosted API template | sweb.api.windowsservice |
+| Simplify.Scheduler hosted API template  | sweb.api.scheduler     |
 
 Use the short name to create a project based on the selected template:
 
@@ -181,7 +182,8 @@ public class LoggedUserPanelView : View
 
 Below is the list of sample applications showing different variations of Simplify.Web usage:
 
-- [Only as an API backend with Angular + Bootstrap UI SPA](https://github.com/SimplifyNet/Simplify.Web/tree/master/src/SampleApps/SampleApp.Angular)
+- [API backend with Angular + Bootstrap UI SPA](https://github.com/SimplifyNet/Simplify.Web/tree/master/src/SampleApps/SampleApp.Angular)
+- [API only](https://github.com/SimplifyNet/Simplify.Web/tree/master/src/SampleApps/SampleApp.Api)
 - [Kestrel-based application with backend HTML generation, localization, authentication](https://github.com/SimplifyNet/Simplify.Web/tree/master/src/SampleApps/SampleApp.Classic)
 
 ![Simplify](https://raw.githubusercontent.com/SimplifyNet/Simplify.Web/master/images/screenshots/sample-app-classic.png)
